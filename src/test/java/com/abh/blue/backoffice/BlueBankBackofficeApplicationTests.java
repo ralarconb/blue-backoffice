@@ -1,4 +1,4 @@
-package com.abh.blue.backoffice.bluebackoffice;
+package com.abh.blue.backoffice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

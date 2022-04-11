@@ -1,4 +1,4 @@
-package com.abh.blue.backoffice.bluebackoffice;
+package com.abh.blue.backoffice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
