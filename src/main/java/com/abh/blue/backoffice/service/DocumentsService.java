@@ -2,6 +2,7 @@ package com.abh.blue.backoffice.service;
 
 import java.util.List;
 
+import javax.persistence.EntityExistsException;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,9 @@ public class DocumentsService {
 	}
 
 	public Document addDocument(Document document) {
+		if (documentsRepo.findDocumentByCode(document.getCode()).isPresent()) {
+			throw new EntityExistsException("Document with code " + document.getCode() + " already exists");
+		}
 		return documentsRepo.save(document);
 	}
 
@@ -36,6 +40,11 @@ public class DocumentsService {
 	public Document findDocumentById(Long id) {
 		return documentsRepo.findDocumentById(id)
 				.orElseThrow(() -> new EntityNotFoundException("Document by id " + id + " was not found"));
+	}
+
+	public Document findDocumentByCode(String code) {
+		return documentsRepo.findDocumentByCode(code)
+				.orElseThrow(() -> new EntityNotFoundException("Document by code " + code + " was not found"));
 	}
 
 	public void deleteDocument(Long id) {

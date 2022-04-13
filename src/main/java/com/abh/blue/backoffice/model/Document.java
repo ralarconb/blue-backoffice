@@ -30,6 +30,7 @@ public class Document implements Serializable {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(nullable = false, updatable = false)
 	private Long id;
+	@Column(nullable = false, updatable = false, unique = true)
 	private String code;
 	private String description;
 

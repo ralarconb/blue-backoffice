@@ -10,4 +10,6 @@ public interface DocumentsRepo extends JpaRepository<Document, Long> {
 	void deleteDocumentById(Long id);
 
 	Optional<Document> findDocumentById(Long id);
+
+	Optional<Document> findDocumentByCode(String code);
 }
