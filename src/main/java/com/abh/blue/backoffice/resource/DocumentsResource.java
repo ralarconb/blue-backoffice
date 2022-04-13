@@ -17,7 +17,7 @@ import com.abh.blue.backoffice.model.Document;
 import com.abh.blue.backoffice.service.DocumentsService;
 
 @RestController
-@RequestMapping("/documents")
+@RequestMapping("/document")
 public class DocumentsResource {
 	private final DocumentsService documentsService;
 
