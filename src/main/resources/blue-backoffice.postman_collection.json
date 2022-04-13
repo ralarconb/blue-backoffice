@@ -11,14 +11,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/documents/find/1",
+					"raw": "http://localhost:8080/document/find/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"documents",
+						"document",
 						"find",
 						"1"
 					]
@@ -32,14 +32,14 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/documents/delete/5",
+					"raw": "http://localhost:8080/document/delete/5",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"documents",
+						"document",
 						"delete",
 						"5"
 					]
@@ -53,14 +53,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/documents/all",
+					"raw": "http://localhost:8080/document/all",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"documents",
+						"document",
 						"all"
 					]
 				}
@@ -82,14 +82,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/documents/add",
+					"raw": "http://localhost:8080/document/add",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"documents",
+						"document",
 						"add"
 					]
 				}
@@ -111,14 +111,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/documents/add",
+					"raw": "http://localhost:8080/document/add",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"documents",
+						"document",
 						"add"
 					]
 				}
@@ -140,14 +140,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/documents/update",
+					"raw": "http://localhost:8080/document/update",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"documents",
+						"document",
 						"update"
 					]
 				}
@@ -169,14 +169,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/documents/add",
+					"raw": "http://localhost:8080/document/add",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"documents",
+						"document",
 						"add"
 					]
 				}
@@ -198,14 +198,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/documents/add",
+					"raw": "http://localhost:8080/document/add",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"documents",
+						"document",
 						"add"
 					]
 				}
